@@ -5,13 +5,12 @@
 #ifndef TESSELLATION_COMMON_H
 #define TESSELLATION_COMMON_H
 
-#define GLFW_INCLUDE_GLCOREARB
 
 #include <iostream>
 
+#include <OpenGL/gl3.h>
 #include <OpenGL/OpenGL.h>
 #include <SDL2/SDL.h>
-#include <GLFW/glfw3.h>
 
 
 #include <glm/detail/type_vec3.hpp>

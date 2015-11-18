@@ -1,4 +1,3 @@
-#include <glfw/glfw3.h>
 #include <iostream>
 
 #include "Benchmarks.h"
@@ -6,7 +5,6 @@
 #include "common.h"
 
 
-extern GLFWwindow *_window;
 extern Entity camera;
 
 extern bool showset;

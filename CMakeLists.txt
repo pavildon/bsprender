@@ -3,7 +3,7 @@ project(tessellation)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 ")
 
-#IF(APPLE)
+if(APPLE)
     include_directories(/System/Library/Frameworks)
     include_directories(/usr/local/include)
     find_library(OPENGL OpenGL)
@@ -17,7 +17,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 ")
         COREVIDEO
     )
     set(EXTRA_LIBS ${OPENGL} ${IOKIT} ${COCOA} ${COREVIDEO})
-#ENDIF(APPLE)
+endif(APPLE)
 
 include(FindPkgConfig)
 

@@ -8,7 +8,6 @@
 #define GLFW_INCLUDE_GLCOREARB
 
 #include <OpenGL/OpenGL.h>
-#include <GLFW/glfw3.h>
 
 #include <memory>
 #include <fstream>
